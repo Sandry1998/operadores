@@ -10,22 +10,23 @@ public class Ejercicio {
      */
   public static void main(String[] args) {
       //Declarar las variables y el scanner
-      boolean estaLloviendo, terminoTarea,biblioteca;
-      Scanner  sn= new Scanner(System.in);
+      boolean estaLloviendo, terminoTarea, biblioteca;
+      Scanner sn = new Scanner(System.in);
       //Hacemos las preguntas
       System.out.println("¿Esta lloviendo? ");
-      estaLloviendo=sn.nextBoolean();
+      estaLloviendo = sn.nextBoolean();
       System.out.println("¿Ha terminado la tarea?");
-      terminoTarea=sn.nextBoolean();
+      terminoTarea = sn.nextBoolean();
       System.out.println("¿Necesitas ir a a la biblioteca?");
-      biblioteca=sn.nextBoolean();
+      biblioteca = sn.nextBoolean();
       //resultado si no llueve y ha terminado la tarea->sale o si tiene que ir a la biblioteca
-      boolean resultado= !estaLloviendo && terminoTarea || biblioteca;
-      System.out.println("Puedes salir -> "+resultado);
+      boolean resultado = !estaLloviendo && terminoTarea || biblioteca;
+      System.out.println("Puedes salir -> " + resultado);
+
+      int letraDNI=20617156%23;
+      System.out.println("La letra DNI es" + letraDNI);
 
 
 
-
-
-    }
+  }
 }
