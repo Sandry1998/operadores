@@ -30,6 +30,12 @@ public class ConversionTipos {
              precedencia=(2+3)*4; //->20
 
          boolean logica=1>2 && 2>3; //falso
+         //Operador ternario
+        int valor= precedencia>4?1:2;
+        String otroValor=precedencia>4?"Es mayor que 4":"Es menor que 4";
+        System.out.println("Una evaluacion la puedo hacer aqui-> "+(precedencia>4?"Es mayor que 4":"Es menor 4"));
+
+
 
 
 
