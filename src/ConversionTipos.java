@@ -26,26 +26,26 @@ public class ConversionTipos {
          * Asignacion = += -= *= /= %=
          * Ejemplo
          */
-         int precedencia=2+3*4; //->14
+         int precedencia; //->14
              precedencia=(2+3)*4; //->20
 
-         boolean logica=1>2 && 2>3; //falso
+         boolean logica=1>2 && 2>3; //false
          //Operador ternario
         int valor= precedencia>4?1:2;
         String otroValor=precedencia>4?"Es mayor que 4":"Es menor que 4";
         System.out.println("Una evaluacion la puedo hacer aqui-> "+(precedencia>4?"Es mayor que 4":"Es menor 4"));
 
+        if(valor>4){ //true o false
+            //entre si es true
+            System.out.println();
+            valor = 8;
+            System.out.println();
+            //bloque de instrucciones
+        }else{//entra si es false
+            System.out.println("El valor falso es: "+valor);
+            //bloque de instrucciones
 
-
-
-
-
-
-
-
-
-
-
+        }
 
 
 
